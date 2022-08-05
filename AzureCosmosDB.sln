@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDB", "CreateDB\CreateDB.csproj", "{FEF7DCC7-72C9-4288-804A-B8D9D6B0BBA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateDB", "CreateDB\CreateDB.csproj", "{FEF7DCC7-72C9-4288-804A-B8D9D6B0BBA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddItem", "AddItem\AddItem.csproj", "{9D8950CE-79B7-4393-B2A0-62BA40F1B432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddItem", "AddItem\AddItem.csproj", "{9D8950CE-79B7-4393-B2A0-62BA40F1B432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadItem", "ReadItem\ReadItem.csproj", "{DB3D288B-8FCF-42EB-9607-F4C41542FC8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadItem", "ReadItem\ReadItem.csproj", "{DB3D288B-8FCF-42EB-9607-F4C41542FC8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceItem", "ReplaceItem\ReplaceItem.csproj", "{ACD3CC38-D9AA-47A4-9972-E8501B439845}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceItem", "ReplaceItem\ReplaceItem.csproj", "{ACD3CC38-D9AA-47A4-9972-E8501B439845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteItem", "DeleteItem\DeleteItem.csproj", "{F1764350-191B-4B1F-9E20-3E2115B89893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteItem", "DeleteItem\DeleteItem.csproj", "{F1764350-191B-4B1F-9E20-3E2115B89893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallStoredProcedure", "CallStoredProcedure\CallStoredProcedure.csproj", "{3B86DC67-ACF9-44F1-AB4A-CCA019351354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F1764350-191B-4B1F-9E20-3E2115B89893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1764350-191B-4B1F-9E20-3E2115B89893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1764350-191B-4B1F-9E20-3E2115B89893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B86DC67-ACF9-44F1-AB4A-CCA019351354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B86DC67-ACF9-44F1-AB4A-CCA019351354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B86DC67-ACF9-44F1-AB4A-CCA019351354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B86DC67-ACF9-44F1-AB4A-CCA019351354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
